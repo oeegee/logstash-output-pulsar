@@ -72,9 +72,9 @@ bin/plugin install --local /usr/share/plugins/logstash-output-pulsar/logstash-ou
 - You can find installed plugin
 ```sh
 find ./ -name logstash-output-pulsar*
-./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT
-./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT/logstash-output-pulsar.gemspec
-./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT/lib/logstash-output-pulsar_jars.rb
-./vendor/cache/logstash-output-pulsar-1.1.0.pre.SNAPSHOT.gem
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.0.0
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.0.0/logstash-output-pulsar.gemspec
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.0.0/lib/logstash-output-pulsar_jars.rb
+./vendor/cache/logstash-output-pulsar-1.0.0.gem
 ```
 - Start Logstash and proceed to test the plugin
