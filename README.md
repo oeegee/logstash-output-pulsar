@@ -65,8 +65,16 @@ You can use the same **2.1** method to run your plugin in an installed Logstash 
 ```sh
 gem build logstash-output-pulsar.gemspec
 ```
-- Install the plugin from the Logstash home
+- Install the plugin from the Logstash home with "--local" option
 ```sh
 bin/plugin install --local /usr/share/plugins/logstash-output-pulsar/logstash-output-pulsar-1.0.0.gem 
+```
+- You can find installed plugin
+```sh
+find ./ -name logstash-output-pulsar*
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT/logstash-output-pulsar.gemspec
+./vendor/local_gems/4280b97c/logstash-output-pulsar-1.1.0.pre.SNAPSHOT/lib/logstash-output-pulsar_jars.rb
+./vendor/cache/logstash-output-pulsar-1.1.0.pre.SNAPSHOT.gem
 ```
 - Start Logstash and proceed to test the plugin
