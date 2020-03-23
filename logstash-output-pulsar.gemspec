@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'jar-dependencies'
 
   # Gem dependenciesw
-  s.add_runtime_dependency 'logstash-core', '~> 7.5', '<= 7.5.2'
+  #s.add_runtime_dependency 'logstash-core', '~> 7.5', '<= 7.5.2'
   s.add_runtime_dependency 'logstash-core-plugin-api'
   s.add_runtime_dependency 'logstash-codec-plain'
   s.add_runtime_dependency 'logstash-codec-json'
