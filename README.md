@@ -13,7 +13,7 @@ bundle install
 - Update your dependencies
 
 ```sh
-bundle update --bundler
+bundle update
 ```
 
 ## Test
