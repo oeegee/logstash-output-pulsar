@@ -67,7 +67,7 @@ gem build logstash-output-pulsar.gemspec
 ```
 - Install the plugin from the Logstash home with "--local" option
 ```sh
-bin/plugin install --local /usr/share/plugins/logstash-output-pulsar/logstash-output-pulsar-1.0.0.gem 
+bin/logstash-plugin install --local /usr/share/plugins/logstash-output-pulsar/logstash-output-pulsar-1.0.0.gem 
 ```
 - You can find installed plugin
 ```sh
